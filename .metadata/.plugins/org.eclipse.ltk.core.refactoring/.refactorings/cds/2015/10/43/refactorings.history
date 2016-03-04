@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ProductoAction.java&apos; to &apos;cds/src/main/java/ar.com.templateit.cds.web.action&apos;&#x0D;&#x0A;- Original project: &apos;cds&apos;&#x0D;&#x0A;- Destination element: &apos;cds/src/main/java/ar.com.templateit.cds.web.action&apos;&#x0D;&#x0A;- Original element: &apos;ar.com.templateit.cds.web.action.ProductoAction.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;ar.com.templateit.cds.web.action" element1="/src\/main\/java&lt;ar.com.templateit.cds.web.action{ProductoAction.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1445644528245" units="1" version="1.0"/>
+</session>

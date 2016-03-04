@@ -1,0 +1,38 @@
+1449523020154	Rename type 'TipoGastoVario'
+1449523025942	Rename type 'TipoGastoVariDAO'
+1449523033681	Rename type 'TipoGastoVariODAO'
+1449523924092	Rename type 'TipoIngresoVario'
+1449524040623	Rename type 'TipoIngresoVarioDAO'
+1449527783878	Move compilation unit
+1449690850665	Rename type 'Cobranza'
+1449690920524	Copy file
+1449691603036	Copy file
+1449691734050	Copy file
+1449691869441	Copy file
+1449692956074	Copy file
+1449693894743	Copy file
+1449695311018	Copy file
+1449695373490	Copy file
+1449695437173	Copy file
+1449695589970	Copy file
+1449696465229	Copy folder
+1449696483479	Rename resource 'abmProveedor.jsp'
+1449696499315	Rename resource 'toolBarProveedor.jsp'
+1449696650672	Rename resource 'ingresovario'
+1449696681737	Rename resource 'ingresovario.xml'
+1449730928241	Copy folder
+1449730948639	Rename resource 'resultProveedor.jsp'
+1449732821679	Rename resource 'editProveedor.jsp'
+1449732831853	Rename resource 'newProveedor.jsp'
+1449732840528	Rename resource 'viewProveedor.jsp'
+1449779846135	Copy compilation unit
+1449985330734	Copy file
+1449985755878	Copy compilation unit
+1449989072522	Copy folder
+1449989284086	Rename resource 'ingresosVarios.jsp'
+1449989294370	Rename resource 'toolBarIngresosVarios.jsp'
+1449990578391	Copy folder
+1449990597772	Rename resource 'resultIngresosVarios.jsp'
+1449990612541	Rename resource 'viewIngresoVario.jsp'
+1449990625236	Rename resource 'editIngresoVario.jsp'
+1449990635269	Rename resource 'newIngresoVario.jsp'

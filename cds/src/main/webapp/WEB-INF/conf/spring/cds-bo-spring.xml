@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+	<bean id="usuarioBO" class="ar.com.templateit.cds.web.bo.impl.UsuarioBOImpl" >
+		<property name="usuarioDAO" ref="usuarioDAO" />
+	</bean>
+	
+	<bean id="categoriaBO" class="ar.com.templateit.cds.web.bo.impl.CategoriaBOImpl" >
+		<property name="categoriaDAO" ref="categoriaDAO" />
+	</bean>
+	
+	<bean id="productoBO" class="ar.com.templateit.cds.web.bo.impl.ProductoBOImpl" >
+		<property name="productoDAO" ref="productoDAO" />
+	</bean>
+	
+	<bean id="compraBO" class="ar.com.templateit.cds.web.bo.impl.CompraBOImpl" >
+		<property name="compraDAO" ref="compraDAO" />
+	</bean>
+	
+	<bean id="ventaBO" class="ar.com.templateit.cds.web.bo.impl.VentaBOImpl" >
+		<property name="ventaDAO" ref="ventaDAO" />
+	</bean>
+	
+	<bean id="ajusteBO" class="ar.com.templateit.cds.web.bo.impl.AjusteBOImpl" >
+		<property name="ajusteDAO" ref="ajusteDAO" />
+	</bean>
+	
+	<bean id="motivoAjusteBO" class="ar.com.templateit.cds.web.bo.impl.MotivoAjusteBOImpl" >
+		<property name="motivoAjusteDAO" ref="motivoAjusteDAO" />
+	</bean>
+	
+	<bean id="estadisticaVentaBO" class="ar.com.templateit.cds.web.bo.impl.EstadisticaVentaBOImpl" >
+		<property name="estadisticaVentaDAO" ref="estadisticaVentaDAO" />
+	</bean>
+	
+	<bean id="alertaBO" class="ar.com.templateit.cds.web.bo.impl.AlertaBOImpl" >
+		<property name="alertaDAO" ref="alertaDAO" />
+	</bean>
+	
+	<bean id="provinciaBO" class="ar.com.templateit.cds.web.bo.impl.ProvinciaBOImpl" >
+		<property name="provinciaDAO" ref="provinciaDAO" />
+	</bean>
+	
+	<bean id="proveedorBO" class="ar.com.templateit.cds.web.bo.impl.ProveedorBOImpl" >
+		<property name="proveedorDAO" ref="proveedorDAO" />
+	</bean>
+	
+	<bean id="roleBO" class="ar.com.templateit.cds.web.bo.impl.RoleBOImpl" >
+		<property name="roleDAO" ref="roleDAO" />
+	</bean>
+	
+	<bean id="cajaBO" class="ar.com.templateit.cds.web.bo.impl.CajaBOImpl" >
+		<property name="cajaDAO" ref="cajaDAO" />
+	</bean>
+    
+	<bean id="estadoCajaBO" class="ar.com.templateit.cds.web.bo.impl.EstadoCajaBOImpl" >
+		<property name="estadoCajaDAO" ref="estadoCajaDAO" />
+	</bean>
+	
+	<bean id="estadoDelPagoBO" class="ar.com.templateit.cds.web.bo.impl.EstadoDelPagoBOImpl" >
+		<property name="estadoDelPagoDAO" ref="estadoDelPagoDAO" />
+	</bean>
+	
+	<bean id="formaDePagoBO" class="ar.com.templateit.cds.web.bo.impl.FormaDePagoBOImpl" >
+		<property name="formaDePagoDAO" ref="formaDePagoDAO" />
+	</bean>
+	
+	<bean id="ingresoVarioBO" class="ar.com.templateit.cds.web.bo.impl.IngresoVarioBOImpl" >
+		<property name="ingresoVarioDAO" ref="ingresoVarioDAO" />
+	</bean>
+	
+	<bean id="tarjetaDeCreditoBO" class="ar.com.templateit.cds.web.bo.impl.TarjetaDeCreditoBOImpl" >
+		<property name="tarjetaDeCreditoDAO" ref="tarjetaDeCreditoDAO" />
+	</bean>
+	
+	<bean id="tipoGastoVarioBO" class="ar.com.templateit.cds.web.bo.impl.TipoGastoVarioBOImpl" >
+		<property name="tipoGastoVarioDAO" ref="tipoGastoVarioDAO" />
+	</bean>
+	
+	<bean id="tipoIngresoVarioBO" class="ar.com.templateit.cds.web.bo.impl.TipoIngresoVarioBOImpl" >
+		<property name="tipoIngresoVarioDAO" ref="tipoIngresoVarioDAO" />
+	</bean>
+	
+	<bean id="gastoVarioBO" class="ar.com.templateit.cds.web.bo.impl.GastoVarioBOImpl" >
+		<property name="gastoVarioDAO" ref="gastoVarioDAO" />
+	</bean>
+	
+	<bean id="clienteBO" class="ar.com.templateit.cds.web.bo.impl.ClienteBOImpl" >
+		<property name="clienteDAO" ref="clienteDAO" />
+	</bean>
+	
+	<bean id="cuentaCorrienteBO" class="ar.com.templateit.cds.web.bo.impl.CuentaCorrienteBOImpl" >
+		<property name="cuentaCorrienteDAO" ref="cuentaCorrienteDAO" />
+	</bean>
+	
+	<bean id="estadoCuentaCorrienteBO" class="ar.com.templateit.cds.web.bo.impl.EstadoCuentaCorrienteBOImpl" >
+		<property name="estadoCuentaCorrienteDAO" ref="estadoCuentaCorrienteDAO" />
+	</bean>
+	
+	<bean id="tipoCuentaCorrienteBO" class="ar.com.templateit.cds.web.bo.impl.TipoCuentaCorrienteBOImpl" >
+		<property name="tipoCuentaCorrienteDAO" ref="tipoCuentaCorrienteDAO" />
+	</bean>
+	
+	<bean id="movimientoCuentaCorrienteBO" class="ar.com.templateit.cds.web.bo.impl.MovimientoCuentaCorrienteBOImpl" >
+		<property name="movimientoCuentaCorrienteDAO" ref="movimientoCuentaCorrienteDAO" />
+	</bean>
+	
+</beans>
